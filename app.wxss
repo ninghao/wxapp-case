@@ -1,4 +1,5 @@
 @import 'styles/reset.wxss';
+@import 'styles/hero.wxss';
 
 page {
   background: #f8f8f8;
