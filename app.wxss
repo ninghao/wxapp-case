@@ -1,5 +1,6 @@
 @import 'styles/reset.wxss';
 @import 'styles/hero.wxss';
+@import 'styles/button.wxss';
 
 page {
   background: #f8f8f8;
