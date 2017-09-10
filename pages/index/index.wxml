@@ -1,1 +1,10 @@
-<view>hello ~</view>
+<image
+  src="https://resources.ninghao.net/landrover/discover-1.jpg"
+  mode="aspectFill" />
+<image
+  src="https://resources.ninghao.net/landrover/velar-1.jpg"
+  mode="aspectFill" />
+
+<view>
+  车身下部特征造型的三条经典线条、飘逸的车顶线和延续的腰线赋予揽胜极高的辨识度。 独具特色的侧影略呈锥形，线条更为利落，亮光黑色支柱使得车顶格外引人注目，使车辆看上去更精简、也更显气魄。
+</view>
