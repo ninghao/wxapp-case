@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/vehicles/show",
     "pages/index/index",
     "pages/stories/index"
   ],
