@@ -31,4 +31,8 @@
       </view>
     </view>
   </view>
+  <view class="action">
+    <view class="description">{{ entity.description }}</view>
+    <button class="button primary">预约试驾</button>
+  </view>
 </view>
