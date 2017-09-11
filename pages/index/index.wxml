@@ -1,4 +1,4 @@
-<!-- <swiper class="section hero" indicator-dots="{{ true }}">
+<swiper class="section hero white" indicator-dots="{{ true }}">
   <block wx:for="{{ slides }}" wx:key="id">
     <swiper-item>
       <image src="{{ item.image }}" mode="aspectFill" />
@@ -13,9 +13,9 @@
       </view>
     </swiper-item>
   </block>
-</swiper> -->
+</swiper>
 <view class="cards">
-  <view class="card" wx:for="{{ entities }}" wx:key="id">
+  <view class="card" hover-class="hover" wx:for="{{ entities }}" wx:key="id">
     <image src="{{ item.image }}" mode="aspectFill" />
     <view class="content">
       <view class="header">

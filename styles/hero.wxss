@@ -6,6 +6,10 @@
     height: 38.2vh;
   }
 
+  .hero.white {
+    background: #ffffff;
+  }
+
   .hero .content {
     padding-top: 10%;
   }
