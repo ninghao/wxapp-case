@@ -2,6 +2,7 @@
 @import 'styles/hero.wxss';
 @import 'styles/button.wxss';
 @import 'styles/card.wxss';
+@import 'styles/cover.wxss';
 
 page {
   background: #f8f8f8;
