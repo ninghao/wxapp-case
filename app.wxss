@@ -3,6 +3,7 @@
 @import 'styles/button.wxss';
 @import 'styles/card.wxss';
 @import 'styles/cover.wxss';
+@import 'styles/spec.wxss';
 
 page {
   background: #f8f8f8;

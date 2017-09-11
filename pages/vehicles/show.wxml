@@ -11,4 +11,24 @@
       <view class="meta">{{ entity.meta.price }}</view>
     </view>
   </view>
+  <view class="spec">
+    <view class="item">
+      <view class="header">
+        二氧化碳排放
+      </view>
+      <view class="value">
+        <text>{{ entity.meta.carbon_dioxide }}</text>
+        克/公里
+      </view>
+    </view>
+    <view class="item">
+      <view class="header">
+        综合燃油
+      </view>
+      <view class="value">
+        <text>{{ entity.meta.fuel }}</text>
+        升/百公里
+      </view>
+    </view>
+  </view>
 </view>
