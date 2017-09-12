@@ -8,7 +8,10 @@
         <view class="description">{{ item.description }}</view>
         <view class="action">
           <button class="button">预约试驾</button>
-          <button class="button primary">了解更多</button>
+          <button
+            class="button primary"
+            bindtap="readMore"
+            data-id="{{ item.id }}">了解更多</button>
         </view>
       </view>
     </swiper-item>
