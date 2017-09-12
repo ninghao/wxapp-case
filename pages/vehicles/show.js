@@ -20,8 +20,8 @@ Page({
       current: images[index]
     })
   },
-  onLoad() {
-    const id = 3
+  onLoad(options) {
+    const id = options.id
     const entity = app.globalData.vehicles.filter((item) => {
       return item.id == id
     })
