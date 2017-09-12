@@ -7,7 +7,7 @@
         <view class="header">{{ item.header }}</view>
         <view class="description">{{ item.description }}</view>
         <view class="action">
-          <button class="button">预约试驾</button>
+          <button class="button" bindtap="testDrive">预约试驾</button>
           <button
             class="button primary"
             bindtap="readMore"

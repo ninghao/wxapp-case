@@ -33,7 +33,7 @@
   </view>
   <view class="action">
     <view class="description">{{ entity.description }}</view>
-    <button class="button primary">预约试驾</button>
+    <button class="button primary" bindtap="testDrive">预约试驾</button>
   </view>
 </view>
 <swiper class="section story white" indicator-dots="{{ true }}">

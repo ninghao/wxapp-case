@@ -1,9 +1,11 @@
+import testDrive from '../../modules/test-drive'
 const app = getApp()
 
 Page({
   data: {
     entity: null
   },
+  testDrive,
   preview(event) {
     const slidesName = event.target.dataset.slides
     const index = event.target.dataset.index
