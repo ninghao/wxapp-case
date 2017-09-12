@@ -1,1 +1,14 @@
-<view>stories</view>
+<view class="cards">
+  <view class="card" hover-class="hover" wx:for="{{ entities }}" wx:key="id">
+    <navigator url="/pages/stories/show?id={{ item.id }}" hover-class="none">
+      <image src="{{ item.image }}" mode="aspectFill" />
+      <view class="content">
+        <view class="header">
+          {{ item.header }}
+        </view>
+        <view class="description">{{ item.description }}</view>
+        <view class="meta">{{ item.meta.price }}</view>
+      </view>
+    </navigator>
+  </view>
+</view>
