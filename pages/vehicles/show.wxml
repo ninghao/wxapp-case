@@ -1,4 +1,4 @@
-<view class="section">
+<!-- <view class="section">
   <view class="cover">
     <image src="{{ entity.image }}" mode="aspectFill" />
     <view class="content">
@@ -35,4 +35,32 @@
     <view class="description">{{ entity.description }}</view>
     <button class="button primary">预约试驾</button>
   </view>
-</view>
+</view> -->
+<swiper class="section story" indicator-dots="{{ true }}">
+  <block wx:for="{{ entity.meta.exterior_design }}" wx:key="id">
+    <swiper-item>
+      <view class="content">
+        <view class="sub-header">外观</view>
+        <view class="header">{{ item.header }}</view>
+        <view class="description">{{ item.description }}</view>
+      </view>
+      <image
+        src="{{ item.image }}"
+        mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+<swiper class="section story white" indicator-dots="{{ true }}">
+  <block wx:for="{{ entity.meta.interior_design }}" wx:key="id">
+    <swiper-item>
+      <view class="content">
+        <view class="sub-header">内饰</view>
+        <view class="header">{{ item.header }}</view>
+        <view class="description">{{ item.description }}</view>
+      </view>
+      <image
+        src="{{ item.image }}"
+        mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>

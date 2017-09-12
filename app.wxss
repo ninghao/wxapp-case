@@ -5,6 +5,7 @@
 @import 'styles/cover.wxss';
 @import 'styles/spec.wxss';
 @import 'styles/action.wxss';
+@import 'styles/story.wxss';
 
 page {
   background: #f8f8f8;
