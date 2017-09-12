@@ -13,7 +13,9 @@
         data-vid="{{ item.id }}"
         bindtap="play"
         src="{{ item.image }}"
-        mode="aspectFill" />
+        mode="aspectFill">
+        <view class="label">{{ item.duration }}</view>
+      </image>
       <view class="content">
         <view class="header">
           {{ item.header }}
