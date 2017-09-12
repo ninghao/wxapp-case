@@ -1,7 +1,17 @@
 <view class="cards">
   <view class="card" hover-class="hover" wx:for="{{ entities }}" wx:key="id">
     <navigator url="/pages/stories/show?id={{ item.id }}" hover-class="none">
-      <image src="{{ item.image }}" mode="aspectFill" />
+      <video
+        id="{{ item.id }}"
+        poster="{{ item.image }}"
+        src="{{ item.video }}"
+        objectFit="cover"
+        duration="{{ item.duration_raw }}" />
+      <image
+        data-vid="{{ item.id }}"
+        bindtap="play"
+        src="{{ item.image }}"
+        mode="aspectFill" />
       <view class="content">
         <view class="header">
           {{ item.header }}
